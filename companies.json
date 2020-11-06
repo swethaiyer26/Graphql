@@ -1,0 +1,14 @@
+[  
+    {  
+       "id": "com-101",  
+       "name": "HCL",  
+       "location": "Noida",  
+       "rating":5.0  
+    },   
+    {  
+       "id": "com-102",  
+       "name": "TCS",  
+       "location": "Mumbai",  
+       "rating":4.5  
+    }  
+ ]  
