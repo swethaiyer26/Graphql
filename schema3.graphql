@@ -1,0 +1,23 @@
+type Query {
+   studentById(id:ID!):Student
+}
+
+type Mutation {
+   addStudent_returns_object(collegeId:ID,firstName:String,lastName:String):Student
+
+   createStudent(collegeId:ID,firstName:String,lastName:String):String
+}
+
+type College {
+   id:ID!
+   name:String
+   location:String
+   rating:Float
+}
+
+type Student {
+   id:ID!
+   firstName:String
+   lastName:String
+   college:College
+}
