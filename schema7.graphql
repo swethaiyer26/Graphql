@@ -1,0 +1,18 @@
+type Query
+{
+students:[Student]
+}
+
+type Student {
+   id:ID!
+   firstName:String
+   lastName:String
+   college:College
+}
+
+type College {
+   id:ID!
+   name:String
+   location:String
+   rating:Float
+}
